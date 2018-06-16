@@ -1,0 +1,29 @@
+{
+  "name": "strava-node",
+  "version": "1.0.0",
+  "description": "Simple node wrapper for strava api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/derekedelaney/strava-node.git"
+  },
+  "keywords": [
+    "node",
+    "strava",
+    "api",
+    "v3"
+  ],
+  "author": "Derek Delaney",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/derekedelaney/strava-node/issues"
+  },
+  "homepage": "https://github.com/derekedelaney/strava-node#readme",
+  "dependencies": {
+    "request": "^2.87.0",
+    "request-promise": "^4.2.2"
+  }
+}
