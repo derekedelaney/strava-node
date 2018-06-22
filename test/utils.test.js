@@ -1,10 +1,10 @@
-const assert = require('assert');
+const expect = require('chai').expect;
 const endpoints = require('../lib/utils').ENDPOINTS;
 
 describe('lib/utils.js', function() {
   describe('endpoints', function() {
     it('should return the available endpoints', function() {
-        assert.equal(Object.keys(endpoints).length, 10);
+        expect(Object.keys(endpoints).length).to.equal(10);
     });
   });
 });
